@@ -1,0 +1,111 @@
+body {
+    font-family: "Roboto", sans-serif;;
+background-color: black;
+}
+
+:root {
+    --dark-color: #19283f;
+    --green-color: #003cf5;
+}
+nav {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+}
+.nav-link {
+    color: white !important;
+}
+ 
+nav img {
+    width: 100px;
+    height: 80px;
+}
+nav .navbar-toggler {
+    color: white;
+}
+nav .button {
+    border:2px solid #3e53dd;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+    width: 85px;
+    height:40px ;
+}
+.section {
+    background-color: black;
+    color: white;
+
+}
+.section img {
+    width: 100%;
+    height: 100%;
+}
+.section h1 {
+   color: rgb(0, 60, 245, 0.48) ;
+   font-size: 60px;
+}
+.section h2{
+    font-size: 55px;
+}
+.section .container .first {
+    width: 160px ;
+    height: 54px; 
+    background-color: var(--green-color);
+    padding: 16px ;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.section .container .second {
+    width: 160px ;
+    height: 54px; 
+    padding: 16px 24px;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: none;
+    outline:2px solid #3e53dd;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.title-one h3 {
+    font-size: 60px;
+    color: white;
+}
+.title-one h4 {
+    font-size: 60px;
+    color: rgb(0, 60, 245, 0.48) ;
+}
+.pulites li {
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.pulites li:hover:not(.active) {
+    color: rgb(85 78 78) ;
+}
+.pulites .active {
+
+    background-color: rgb(85 78 78);
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    margin-bottom: 10px;
+    height: 200px;
+    background-color: black;
+    border: 1px solid white;
+
+}
+.card img {
+    width: 80px;
+    
+}
